@@ -1,0 +1,32 @@
+{
+  "name": "getShook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./shooksite/frontend/src/index.js --output ./shooksite/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./shooksite/frontend/src/index.js --output ./shooksite/frontend/static/frontend/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-router": "^4.2.0",
+    "shortid": "^2.2.8",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  },
+  "dependencies": {
+    "react-materialize": "^2.1.4",
+    "react-router-dom": "^4.2.2"
+  }
+}

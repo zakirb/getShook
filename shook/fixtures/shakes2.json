@@ -1,0 +1,563 @@
+[
+  {
+      "model": "shook.shake",
+      "pk": 1,
+      "fields": {
+        "proposal": "Who Can Do More Push Ups?",
+        "proposer": "1",
+        "acceptor": "4",
+        "description": "I am way stronger and can definitely pump more body than you, bro.",
+        "type": "Bet",
+        "proposer_status":"accepted",
+        "acceptor_status":"accepted",
+        "status":"pending"
+      }
+  },
+    {
+        "model": "shook.shake",
+        "pk": 2,
+        "fields": {
+          "proposal": "Do Your Chores",
+          "proposer": "2",
+          "acceptor": "3",
+          "description": "If you complete your chores by Tuesday, I'll buy you ice cream.",
+          "type": "Deal",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 3,
+        "fields": {
+          "proposal": "Drop Out of GA",
+            "proposer": "4",
+          "acceptor": "3",
+          "description": "I bet you won't drop out of GA on the last day.",
+          "type": "Bet",
+          "proposer_status":"completed",
+          "acceptor_status":"completed",
+          "status":"completed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 4,
+        "fields": {
+          "proposal": "Move to France",
+          "proposer": "2",
+          "acceptor": "2",
+          "description": "If I don't find a job by 2019, I'm gonna move to France.",
+          "type": "Pact",
+          "proposer_status":"accepted",
+          "acceptor_status":"accepted",
+          "status":"pending"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 5,
+        "fields": {
+          "proposal": "Who Can Eat the Most Sour Patch Kids",
+          "proposer": "3",
+          "acceptor": "1",
+          "description": "There is no way on God's green earth that you could ever think about beating me in the SPK challenge.",
+          "type": "Bet",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 6,
+        "fields": {
+          "proposal": "IOU",
+          "proposer": "4",
+          "acceptor": "3",
+          "description": "I'll get you back the $20 for the potluck soon.",
+          "type": "IOU",
+          "proposer_status":"accepted",
+          "acceptor_status":"accepted",
+          "status":"pending"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 7,
+        "fields": {
+          "proposal": "Buy You a Bull Mastiff",
+          "proposer": "3",
+          "acceptor": "2",
+          "description": "If you give me a 3 on this project, I'll buy you a pup.",
+          "type": "Bet",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 8,
+        "fields": {
+          "proposal": "Buy the Tix",
+          "proposer": "1",
+          "acceptor": "2",
+          "description": "You said you'd buy those Mariner tix, pony up sucka!",
+          "type": "Deal",
+          "proposer_status":"Accepted",
+          "acceptor_status":"Accepted",
+          "status":"pending"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 9,
+        "fields": {
+          "proposal": "Designated Driver",
+          "proposer": "2",
+          "acceptor": "3",
+          "description": "You said you'd DD for Dan's 98th birthday.",
+          "type": "Deal",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 10,
+        "fields": {
+          "proposal": "Brewery Challenge",
+          "proposer": "2",
+          "acceptor": "1",
+          "description": "Let's see who can cross of the most breweries this year!",
+          "type": "Bet",
+          "proposer_status":"accepted",
+          "acceptor_status":"accepted",
+          "status":"pending"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 11,
+        "fields": {
+          "proposal": "Finish Project 4",
+          "proposer": "4",
+          "acceptor": "1",
+          "description": "Let's finish this ish strong.",
+          "type": "Deal",
+          "proposer_status":"completed",
+          "acceptor_status":"completed",
+          "status":"completed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 12,
+        "fields": {
+          "proposal": "Bear vs Gorilla",
+          "proposer": "3",
+          "acceptor": "2",
+          "description": "You're the bear. I'm the gorilla. Let's dance.",
+          "type": "Bet",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 13,
+        "fields": {
+          "proposal": "Eat More Veggies",
+          "proposer": "1",
+          "acceptor": "1",
+          "description": "2018 is the year of healthy eating",
+          "type": "bet",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 14,
+        "fields": {
+          "proposal": "UNC Winning the 'Ship'",
+          "proposer": "3",
+          "acceptor": "4",
+          "description": "Heels goin' allllll the way, yo.",
+          "type": "Bet",
+          "proposer_status":"accepted",
+          "acceptor_status":"accepted",
+          "status":"pending"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 15,
+        "fields": {
+          "proposal": "Do The Laundry",
+          "proposer": "1",
+          "acceptor": "4",
+          "description": "If you don't, no chicken nuggets for you",
+          "type": "Deal",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 16,
+        "fields": {
+          "proposal": "Camper Pact",
+          "proposer": "2",
+          "acceptor": "4",
+          "description": "If neither of us are married by our 40s, we're buying a camper and traveling",
+          "type": "Pact",
+          "proposer_status":"accepted",
+          "acceptor_status":"accepted",
+          "status":"pending"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 17,
+        "fields": {
+          "proposal": "Regex Challenge",
+          "proposer": "4",
+          "acceptor": "2",
+          "description": "Totally gonna master regex before you",
+          "type": "Challenge",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 18,
+        "fields": {
+          "proposal": "1 on 1",
+          "proposer": "3",
+          "acceptor": "1",
+          "description": "Gonna beat you in 1 on 1 this weekend",
+          "type": "Bet",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 19,
+        "fields": {
+          "proposal": "If you buy the drinks tonight...",
+          "proposer": "4",
+          "acceptor": "3",
+          "description": "I'll buy the drinks next time",
+          "type": "Deal",
+          "proposer_status":"accepted",
+          "acceptor_status":"accepted",
+          "status":"pending"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 20,
+        "fields": {
+          "proposal": "Party Pact",
+          "proposer": "1",
+          "acceptor": "2",
+          "description": "We graduated, let's bring the ruckus",
+          "type": "Deal",
+          "proposer_status":"accepted",
+          "acceptor_status":"accepted",
+          "status":"pending"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 21,
+        "fields": {
+          "proposal": "Who Can Do More Push Ups?",
+          "proposer": "3",
+          "acceptor": "2",
+          "description": "I am way stronger and can definitely pump more body than you, bro.",
+          "type": "Bet",
+          "proposer_status":"accepted",
+          "acceptor_status":"accepted",
+          "status":"pending"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 22,
+        "fields": {
+          "proposal": "Do Your Chores",
+          "proposer": "1",
+          "acceptor": "4",
+          "description": "If you complete your chores by Tuesday, I'll buy you ice cream.",
+          "type": "Deal",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 23,
+        "fields": {
+          "proposal": "Drop Out of GA",
+          "proposer": "4",
+          "acceptor": "2",
+          "description": "I bet you won't drop out of GA on the last day.",
+          "type": "Bet",
+          "proposer_status":"completed",
+          "acceptor_status":"completed",
+          "status":"completed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 24,
+        "fields": {
+          "proposal": "Move to France",
+          "proposer": "1",
+          "acceptor": "1",
+          "description": "If I don't find a job by 2019, I'm gonna move to France.",
+          "type": "Pact",
+          "proposer_status":"accepted",
+          "acceptor_status":"accepted",
+          "status":"pending"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 25,
+        "fields": {
+          "proposal": "Who Can Eat the Most Sour Patch Kids",
+          "proposer": "2",
+          "acceptor": "4",
+          "description": "There is no way on God's green earth that you could ever think about beating me in the SPK challenge.",
+          "type": "Bet",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 26,
+        "fields": {
+          "proposal": "IOU",
+          "proposer": "3",
+          "acceptor": "1",
+          "description": "I'll get you back the $20 for the potluck soon.",
+          "type": "IOU",
+          "proposer_status":"accepted",
+          "acceptor_status":"accepted",
+          "status":"pending"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 27,
+        "fields": {
+          "proposal": "Buy You a Bull Mastiff",
+          "proposer": "2",
+          "acceptor": "4",
+          "description": "If you give me a 3 on this project, I'll buy you a pup.",
+          "type": "Bet",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 28,
+        "fields": {
+          "proposal": "Buy the Tix",
+          "proposer": "4",
+          "acceptor": "2",
+          "description": "You said you'd buy those Mariner tix, pony up sucka!",
+          "type": "Deal",
+          "proposer_status":"Accepted",
+          "acceptor_status":"Accepted",
+          "status":"pending"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 29,
+        "fields": {
+          "proposal": "Designated Driver",
+          "proposer": "1",
+          "acceptor": "4",
+          "description": "You said you'd DD for Dan's 98th birthday.",
+          "type": "Deal",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 30,
+        "fields": {
+          "proposal": "Brewery Challenge",
+          "proposer": "4",
+          "acceptor": "3",
+          "description": "Let's see who can cross of the most breweries this year!",
+          "type": "Bet",
+          "proposer_status":"accepted",
+          "acceptor_status":"accepted",
+          "status":"pending"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 31,
+        "fields": {
+          "proposal": "Finish Project 4",
+          "proposer": "1",
+          "acceptor": "2",
+          "description": "Let's finish this ish strong.",
+          "type": "Deal",
+          "proposer_status":"completed",
+          "acceptor_status":"completed",
+          "status":"completed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 32,
+        "fields": {
+          "proposal": "Bear vs Gorilla",
+          "proposer": "4",
+          "acceptor": "1",
+          "description": "You're the bear. I'm the gorilla. Let's dance.",
+          "type": "Bet",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 33,
+        "fields": {
+          "proposal": "Eat More Veggies",
+          "proposer": "3",
+          "acceptor": "3",
+          "description": "2018 is the year of healthy eating",
+          "type": "bet",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 34,
+        "fields": {
+          "proposal": "UNC Winning the 'Ship'",
+          "proposer": "2",
+          "acceptor": "1",
+          "description": "Heels goin' allllll the way, yo.",
+          "type": "Bet",
+          "proposer_status":"accepted",
+          "acceptor_status":"accepted",
+          "status":"pending"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 35,
+        "fields": {
+          "proposal": "Do The Laundry",
+          "proposer": "3",
+          "acceptor": "1",
+          "description": "If you don't, no chicken nuggets for you",
+          "type": "Deal",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 36,
+        "fields": {
+          "proposal": "Camper Pact",
+          "proposer": "3",
+          "acceptor": "2",
+          "description": "If neither of us are married by our 40s, we're buying a camper and traveling",
+          "type": "Pact",
+          "proposer_status":"accepted",
+          "acceptor_status":"accepted",
+          "status":"pending"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 37,
+        "fields": {
+          "proposal": "Regex Challenge",
+          "proposer": "1",
+          "acceptor": "4",
+          "description": "Totally gonna master regex before you",
+          "type": "Challenge",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 38,
+        "fields": {
+          "proposal": "1 on 1",
+          "proposer": "2",
+          "acceptor": "3",
+          "description": "Gonna beat you in 1 on 1 this weekend",
+          "type": "Bet",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 39,
+        "fields": {
+          "proposal": "If you buy the drinks tonight...",
+          "proposer": "1",
+          "acceptor": "4",
+          "description": "I'll buy the drinks next time",
+          "type": "Deal",
+          "proposer_status":"accepted",
+          "acceptor_status":"accepted",
+          "status":"pending"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 40,
+        "fields": {
+          "proposal": "Party Pact",
+          "proposer": "4",
+          "acceptor": "3",
+          "description": "We graduated, let's bring the ruckus",
+          "type": "Deal",
+          "proposer_status":"accepted",
+          "acceptor_status":"accepted",
+          "status":"pending"
+        }
+    }
+
+]

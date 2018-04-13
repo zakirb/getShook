@@ -1,0 +1,129 @@
+[
+  {
+      "model": "shook.shake",
+      "pk": 2,
+      "fields": {
+        "proposal": "have fun",
+        "proposer": "6",
+        "acceptor": "7",
+        "description": "fun stuff",
+        "type": "bet",
+        "proposer_status":"proposed",
+        "acceptor_status":"pending",
+        "status":"proposed"
+      }
+  },
+    {
+        "model": "shook.shake",
+        "pk": 3,
+        "fields": {
+          "proposal": "have fun",
+          "proposer": "6",
+          "acceptor": "7",
+          "description": "fun stuff",
+          "type": "bet",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 4,
+        "fields": {
+          "proposal": "have fun",
+          "proposer": "6",
+          "acceptor": "7",
+          "description": "fun stuff",
+          "type": "bet",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 5,
+        "fields": {
+          "proposal": "have fun",
+          "proposer": "6",
+          "acceptor": "7",
+          "description": "fun stuff",
+          "type": "bet",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 6,
+        "fields": {
+          "proposal": "have fun",
+          "proposer": "6",
+          "acceptor": "7",
+          "description": "fun stuff",
+          "type": "bet",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 7,
+        "fields": {
+          "proposal": "have fun",
+          "proposer": "6",
+          "acceptor": "5",
+          "description": "fun stuff",
+          "type": "bet",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 8,
+        "fields": {
+          "proposal": "have fun",
+          "proposer": "6",
+          "acceptor": "5",
+          "description": "fun stuff",
+          "type": "bet",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 9,
+        "fields": {
+          "proposal": "have fun",
+          "proposer": "6",
+          "acceptor": "7",
+          "description": "fun stuff",
+          "type": "bet",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    },
+    {
+        "model": "shook.shake",
+        "pk": 10,
+        "fields": {
+          "proposal": "have fun",
+          "proposer": "6",
+          "acceptor": "7",
+          "description": "fun stuff",
+          "type": "bet",
+          "proposer_status":"proposed",
+          "acceptor_status":"pending",
+          "status":"proposed"
+        }
+    }
+
+]

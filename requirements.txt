@@ -1,0 +1,5 @@
+Django==2.0.1
+djangorestframework==3.8.2
+psycopg2==2.7.4
+gunicorn==19.7.1
+django-heroku==0.3.1

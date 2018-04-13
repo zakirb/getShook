@@ -1,0 +1,26 @@
+.shake-item {
+  color: #58A4B0 !important;
+}
+
+li.completed > div.collapsible-header {
+  background-color: #58A4B0 !important;
+  color: #D8DBE2 !important;
+}
+
+li.proposed > div.collapsible-header {
+  background-color: #DAA49A !important;
+  color: #373F51 !important;
+}
+
+.shake-list {
+  width: 30%;
+  min-width: 250px;
+  padding: 0;
+  margin:0;
+  height: 50vh;
+  overflow-y: scroll;
+}
+
+div.collapsible-body {
+  background-color: white !important;
+}

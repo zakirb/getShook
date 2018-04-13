@@ -1,0 +1,169 @@
+body {
+  color: #D8DBE2;
+  background-image: url('./images/fist_bump.png');
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+ }
+
+#app {
+  font-family: 'Chivo', sans-serif;
+}
+
+#navbar {
+  background-color: #373F51;
+  height: 100px !important;
+}
+
+#home-link {
+  z-index: 10;
+}
+
+
+.brand-logo > img {
+  height: 100px !important;
+}
+
+.navlinks {
+  display: inline-block;
+  padding-top: 20px;
+  margin-right: 15px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.brand-logo {
+  left: 2%;
+}
+
+.button {
+  color: #FFFFFF;
+  background-color: #58A4B0;
+  border-radius: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.button-collapse {
+  padding-top: 20px !important;
+}
+
+.link-button {
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid #373F51;
+  background-color: #58A4B0;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.home {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+
+.home-button {
+  margin-top: 40px;
+  border-radius: 10px;
+  border: 2px solid #373F51;
+  height: 70px;
+  width: 160px;
+  font-size: 20px;
+  font-weight: 200;
+  background-color: #58A4B0;
+  color: #FFFFFF;
+}
+
+.formContainer {
+  background-color: white;
+  margin-top: 100px;
+  padding: 30px 25px!important;
+  border-radius: 10px;
+  color: #373F51;
+}
+
+.ProFormContainer {
+  background-color: white;
+  margin-top: 100px;
+  padding: 40px 50px!important;
+  border-radius: 10px;
+  color: #373F51!important;
+}
+
+ /* forms' buttons */
+.center-butt {
+  margin: 0 auto!important;
+}
+
+.textarea {
+  margin-top: 15px;
+  margin-bottom: -7px;
+}
+
+/* shake details style */
+.shakeDetails {
+  color: #373F51;
+}
+
+#footer {
+  background-color: #373F51;
+  margin-bottom: -15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.caption.center-align > h3 {
+  color: white;
+}
+
+.caption.center-align > h5 {
+  color: white;
+}
+
+.caption.right-align > h3 {
+  color: #white;
+}
+
+.caption.right-align > h5 {
+  color: #white;
+}
+
+.caption.left-align > h3 {
+  color: #373F51;
+}
+
+.caption.left-align > h5 {
+  color: #373F51;
+}
+
+.footerlink {
+  font-size: 18px;
+  color: white;
+}
+
+#nav-mobile {
+  background-color: #D8DBE2;
+}
+
+#nav-mobile .navlinks {
+  border-bottom: 1px solid #373F51;
+  margin: 0;
+}
+
+#nav-mobile .navlinks:hover {
+  background-color: #DAA49A;
+}
+
+@media (min-width: 600px) {
+  .new_shake {
+    display: none;
+  }
+}

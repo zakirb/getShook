@@ -1,0 +1,33 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Import Google Icon Font -->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Import Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Chivo" rel="stylesheet">
+  <!-- Import materialize.css -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="{% static 'frontend/shakes.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'frontend/style.css' %}">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+  <title>Shook</title>
+</head>
+<body>
+  <main id="app" class="columns"><!-- React --></main>
+  <footer id='footer' class='page-footer white-text center'>
+      <h5>Let's shake on it.</h5>
+      <a class='footerlink white-text' href='https://github.com/zakirb/Shook'><i class="fab fa-github fa-lg"></i><br />
+      Visit us on GitHub
+      </a>
+      <p>© Shook 2018. All Rights Reserved.</p>
+  </footer>
+</body>
+<!-- Import jQuery before materialize.js -->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+<script src="{% static "frontend/main.js" %}"></script>
+</html>
